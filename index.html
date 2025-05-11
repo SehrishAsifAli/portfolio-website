@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sehrish's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+  <!-- Header Section -->
+  <header>
+    <h1>Sehrish</h1>
+    <p>Web Developer in the Making</p>
+    <button id="darkModeToggle">Toggle Dark Mode</button>
+  </header>
+
+  <section id="about" data-aos="fade-right">
+    <h2>About Me</h2>
+    <p>Hello! I'm Sehrish...</p>
+  </section>
+  
+  <section id="projects" data-aos="flip-left">
+    <h2>My Projects</h2>
+    <ul>
+      <li>To-Do List App</li>
+      <li>Age Calculator</li>
+    </ul>
+  </section>
+  
+  <section id="contact" data-aos="flip-right" data-aos-delay="200">
+    <h2>Contact Me</h2>
+    <!-- contact form here -->
+ 
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <div class="container">
+    <!-- all your sections like header, about, projects, contact -->
+  </div>
+  
+  
+<script src="script.js"></script>
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>

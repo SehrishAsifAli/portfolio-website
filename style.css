@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, textarea, button {
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+/* Dark mode styles */
+.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+  }
+  
+  .dark-mode header {
+    background: #1e1e1e;
+  }
+  
+  .dark-mode input,
+  .dark-mode textarea {
+    background: #333;
+    color: #f1f1f1;
+    border: 1px solid #555;
+  }
+  
+  .dark-mode button {
+    background: #444;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 1rem;
+  }
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 1rem;
+  }
+  @media (max-width: 768px) {
+    header {
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    form {
+      flex-direction: column;
+    }
+  
+    input, textarea, button {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+    }
+  
+    p, li {
+      font-size: 1rem;
+    }
+  
+    button {
+      font-size: 1rem;
+    }
+  }
+       /* Navbar Styles */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    padding: 1rem;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    color: #007bff;
+  }
+  .dark-mode .navbar {
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 5px rgba(255,255,255,0.1);
+  }
+  
+  .dark-mode .navbar a {
+    color: #f1f1f1;
+  }
+       
